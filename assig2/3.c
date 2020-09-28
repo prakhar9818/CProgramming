@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main(){
-	int a=1+rand()%11;
+	int a=1+rand()%10;
 	if(a<3){
 		printf("a\n");
 	}else if(a<6){
